@@ -14,6 +14,5 @@ export const getDieTime = (clock) => {
 };
 
 export const getNextPoopTime = (clock) => {
-  console.log(Math.floor(Math.random() * 3) + 4 + clock);
   return Math.floor(Math.random() * 3) + 4 + clock;
 };
